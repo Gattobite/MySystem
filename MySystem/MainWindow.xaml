@@ -12,6 +12,7 @@
             <Label Content="wIN LABEL" HorizontalAlignment="Left" Margin="129,0,0,0" VerticalAlignment="Center" Foreground="#FFE81717"/>
         </Grid>
         <Label Name="Monlab" Content="Monitor" HorizontalAlignment="Left" Margin="96,36,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <RadioButton Name="YesBut" Content="Yes" HorizontalAlignment="Left" Margin="616,24,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

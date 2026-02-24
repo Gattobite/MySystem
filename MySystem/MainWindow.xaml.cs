@@ -34,5 +34,10 @@ namespace MySystem
         {
             MessageBox.Show("Hello! I am method from owner master!");
         }
+
+        private void MethodFromFuture1()
+        {
+            MessageBox.Show("i am method from Futures1 branch!");
+        }
     }
 }
