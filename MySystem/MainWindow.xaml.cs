@@ -29,5 +29,10 @@ namespace MySystem
         {
             Monlab.Foreground = Brushes.Red;
         }
+
+        private void MethodFromFuture1()
+        {
+            MessageBox.Show("i am method from Futures1 branch!");
+        }
     }
 }
