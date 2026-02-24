@@ -8,7 +8,11 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="#FF7BF16B">
         <Button Content="Change" HorizontalAlignment="Left" Margin="310,281,0,0" VerticalAlignment="Top" Width="137" Height="54" BorderBrush="#FFF11717" FontSize="16" FontWeight="Bold" FontFamily="Ascon Complex" Background="#FF152CE8" Foreground="#FFF0F11A"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="96,104,0,0" VerticalAlignment="Top" Width="630"/>
+        <Grid HorizontalAlignment="Left" Height="155" Margin="96,104,0,0" VerticalAlignment="Top" Width="634" Background="Black">
+            <Label Name="IngridLab" Content="Window" HorizontalAlignment="Left" Margin="33,25,0,0" VerticalAlignment="Top" Foreground="#FFE01212" Width="59"/>
+
+
+        </Grid>
         <Label Name="Monlab" Content="Monitor" HorizontalAlignment="Left" Margin="96,36,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
         <RadioButton Name="YesBut" Content="Yes" HorizontalAlignment="Left" Margin="616,24,0,0" VerticalAlignment="Top"/>
 
