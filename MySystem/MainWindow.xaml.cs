@@ -24,5 +24,10 @@ namespace MySystem
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Monlab.Foreground = Brushes.Red;
+        }
     }
 }
