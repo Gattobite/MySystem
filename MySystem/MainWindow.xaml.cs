@@ -40,6 +40,11 @@ namespace MySystem
             MessageBox.Show("i am method from Futures1 branch!");
         }
 
+        private void FastMethodFromOwner()
+        {
+            MessageBox.Show("i am not forgeting");
+        }
+
         private void MethodFromMaster()
         {
             // обновляю сразу свой мастер
