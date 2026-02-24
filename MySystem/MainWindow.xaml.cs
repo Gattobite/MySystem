@@ -29,5 +29,10 @@ namespace MySystem
         {
             Monlab.Foreground = Brushes.Red;
         }
+
+        private void MethodFromOwnerMaster()
+        {
+            MessageBox.Show("Hello! I am method from owner master!");
+        }
     }
 }
