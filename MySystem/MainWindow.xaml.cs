@@ -39,5 +39,12 @@ namespace MySystem
         {
             MessageBox.Show("i am method from Futures1 branch!");
         }
+
+        private void MethodFromMaster()
+        {
+            // обновляю сразу свой мастер
+
+            MessageBox.Show("i hope that he waits me");
+        }
     }
 }
